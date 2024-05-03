@@ -54,7 +54,7 @@ chmod +x install.sh
 
 #### 💫 SDDM and GTK Themes
 - If you opted to install SDDM theme, here's the [SDDM-Theme](https://github.com/PuppyAnimations/SDDM-Theme).
-- If you opted to install GTK Themes, Icons and Cursor offered are Tokyo Nights. [GTK-Themes](https://github.com/PuppyAnimations/GTK-Themes) & Bibata Cursor Modern Ice.
+- If you opted to install GTK Themes, Icons and Cursor offered are Tokyo Nights. [GTK-Theme](https://github.com/PuppyAnimations/GTK-Theme) & Bibata Cursor Modern Ice.
 
 #### 👀 NVidia GPU Owners
 - By default, nvidia-dkms will be installed. and only supports GTX 900 and newer. If required to install older driver, edit the nvidia.sh in scripts-folder
