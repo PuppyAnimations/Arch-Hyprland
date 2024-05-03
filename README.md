@@ -7,6 +7,18 @@
 <br/>
 </div>
 
+#### ✨ Installatation Instructions
+> clone this repo (latest commit only) to reduce file size download by using git. Change directory, make executable and run the script:
+```bash
+git clone --depth=1 https://github.com/JaKooLit/Arch-Hyprland.git ~/Arch-Hyprland
+cd ~/Arch-Hyprland
+chmod +x install.sh
+./install.sh
+```
+
+<br/>
+</div>
+
 #### Hyprland-Dots-Showcase 
 <p align="center">
     <img align="center" width="49%" src="https://raw.githubusercontent.com/JaKooLit/screenshots/main/Hyprland-ScreenShots/Arch-v2/Arch-Default-Layout.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/JaKooLit/screenshots/main/Hyprland-Dots-Showcase/dark-theme.png" />   
@@ -18,6 +30,9 @@
    <img align="center" width="49%" src="https://raw.githubusercontent.com/JaKooLit/screenshots/main/Hyprland-Dots-Showcase/wlogout-dark.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/JaKooLit/screenshots/main/Hyprland-Dots-Showcase/showcase2.png"" /> 
    <img align="center" width="49%" src="https://raw.githubusercontent.com/JaKooLit/screenshots/main/Hyprland-Dots-Showcase/waybar-layout.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/JaKooLit/screenshots/main/Hyprland-Dots-Showcase/waybar-style.png"" /> 
 </p>
+
+<p align="center">
+    <img align="center" width="100%" src="https://raw.githubusercontent.com/JaKooLit/Arch-Hyprland/main/Installer.png" />
 
 ### 🪧🪧🪧 ANNOUNCEMENT 🪧🪧🪧
 - This Repo does not contain Hyprland Dots or configs! Dotfiles can be checked here [Hyprland-Dots](https://github.com/PuppyAnimations/Hyprland-Dots). During installation, if you opt to copy installation, it will be downloaded from that centralized repo.
@@ -45,18 +60,6 @@
 - By default, nvidia-dkms will be installed. and only supports GTX 900 and newer. If required to install older driver, edit the nvidia.sh in scripts-folder
 > [!IMPORTANT]
 > If you want to use nouveau driver, choose N when asked if you have nvidia gpu. This is because the nvidia installer part, it will blacklist nouveau. Hyprland will still be installed but it will skip blacklisting nouveau.
-
-#### ✨ Installatation Instructions
-> clone this repo (latest commit only) to reduce file size download by using git. Change directory, make executable and run the script:
-```bash
-git clone --depth=1 https://github.com/JaKooLit/Arch-Hyprland.git ~/Arch-Hyprland
-cd ~/Arch-Hyprland
-chmod +x install.sh
-./install.sh
-```
-
-<p align="center">
-    <img align="center" width="100%" src="https://raw.githubusercontent.com/JaKooLit/Arch-Hyprland/main/Installer.png" />
 
 #### ✨ for ZSH and OH-MY-ZSH installation
 > installer should auto change your default shell to zsh. However, if it does not, do this:
