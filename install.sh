@@ -9,14 +9,14 @@ fi
 
 clear
 
-printf "\n%.0s" {1..3}                            
+printf "\n%.0s" {1..3}
 echo "  _____  _    _ _____  _______     __"
 echo " |  __ \| |  | |  __ \|  __ \ \   / /"
 echo " | |__) | |  | | |__) | |__) \ \_/ / "
 echo " |  ___/| |  | |  ___/|  ___/ \   /  "
 echo " | |    | |__| | |    | |      | |   "
 echo " |_|     \____/|_|    |_|      |_|   "
-printf "\n%.0s" {1..2}  
+printf "\n%.0s" {1..2}
 
 # Welcome message
 echo "$(tput setaf 6)Welcome to Puppy's Arch-Hyprland Install Script!$(tput sgr0)"
