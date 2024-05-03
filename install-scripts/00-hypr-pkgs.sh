@@ -31,7 +31,9 @@ pipewire-alsa
 playerctl
 polkit-gnome
 python-requests
-python-pywal 
+python-pywal
+python-pyquery
+pyprland 
 qt5ct
 qt6ct
 qt6-svg
@@ -53,7 +55,7 @@ yad
 hypr_package_2=(
 brightnessctl 
 btop
-cava
+cava-git
 eog
 gnome-system-monitor
 mousepad 
