@@ -69,7 +69,7 @@ zsh
 source ~/.zshrc
 ```
 - Reboot or logout
-- By default agnoster theme is installed. You can find more themes from [OH-MY-ZSH-THEMES](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes).
+- By default darkblood theme is installed. You can find more themes from [OH-MY-ZSH-THEMES](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes).
 - To change the theme, edit ~/.zshrc . Look for ZSH_THEME="desired theme".
 
 #### ✨ TO DO once installation done and dotfiles copied
