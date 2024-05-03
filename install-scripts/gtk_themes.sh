@@ -38,7 +38,7 @@ if [ -d "GTK-themes-icons" ]; then
 fi
 
 echo "$NOTE Cloning Tokyo Theme GTK themes and Icons repository..." 2>&1 | tee -a "$LOG"
-if git clone https://github.com/JaKooLit/GTK-themes-icons.git ; then
+if git clone https://github.com/PuppyAnimations/GTK-Theme.git ; then
     cd GTK-themes-icons
     chmod +x auto-extract.sh
     ./auto-extract.sh
