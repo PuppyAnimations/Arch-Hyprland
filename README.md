@@ -34,7 +34,7 @@ chmod +x install.sh
 <p align="center">
     <img align="center" width="100%" src="https://raw.githubusercontent.com/JaKooLit/Arch-Hyprland/main/Installer.png" />
 
-### 🪧🪧🪧 ANNOUNCEMENT 🪧🪧🪧
+### 🪧 ANNOUNCEMENT
 - This Repo does not contain Hyprland Dots or configs! Dotfiles can be checked here [Hyprland-Dots](https://github.com/PuppyAnimations/Hyprland-Dots). During installation, if you opt to copy installation, it will be downloaded from that centralized repo.
 - Hyprland-Dots use are constantly evolving / improving. you can check CHANGELOGS here [Hyprland-Dots-Changelogs](https://github.com/PuppyAnimations/Hyprland-Dots/wiki/Changelogs).
 - the wallpapers offered to be downloaded towards the end is from this [REPO](https://github.com/PuppyAnimations/Wallpaper-Bank).
@@ -42,7 +42,7 @@ chmod +x install.sh
 > [!WARNING] 
 > Download this script on a directory where you have write permissions. ie. HOME. Or any directory within your home directory; else the script will fail.
 
-#### 🆕  Prerequisites
+#### 🆕 Prerequisites
 - This install script is intended for atleast Server type / Minimal Arch Linux installed.
 
 #### 🔘 Pipewire and Pipewire audio
@@ -56,12 +56,12 @@ chmod +x install.sh
 - If you opted to install SDDM theme, here's the [SDDM-Theme](https://github.com/PuppyAnimations/SDDM-Theme).
 - If you opted to install GTK Themes, Icons and Cursor offered are Tokyo Nights. [GTK-Themes](https://github.com/PuppyAnimations/GTK-Themes) & Bibata Cursor Modern Ice.
 
-#### 👀 NVidia GPU Owners.
+#### 👀 NVidia GPU Owners
 - By default, nvidia-dkms will be installed. and only supports GTX 900 and newer. If required to install older driver, edit the nvidia.sh in scripts-folder
 > [!IMPORTANT]
 > If you want to use nouveau driver, choose N when asked if you have nvidia gpu. This is because the nvidia installer part, it will blacklist nouveau. Hyprland will still be installed but it will skip blacklisting nouveau.
 
-#### ✨ for ZSH and OH-MY-ZSH installation
+#### ✨ For ZSH and OH-MY-ZSH installation
 > installer should auto change your default shell to zsh. However, if it does not, do this:
 ```bash
 chsh -s $(which zsh)
@@ -77,7 +77,7 @@ source ~/.zshrc
 - SUPER H for HINT or click on the waybar HINT! Button.
 - Head over to [FAQ](https://github.com/PuppyAnimations/Hyprland-Dots/wiki/FAQ) and [TIPS](https://github.com/PuppyAnimations/Hyprland-Dots/wiki/TIPS).
 
-#### 🙋 Got a questions regarding the Hyprland Dots or configurations? 🙋
+#### 🙋 Got a questions regarding the Hyprland Dots or configurations?
 - Head over to the [WIKI](https://github.com/PuppyAnimations/Hyprland-Dots/wiki).
 
 #### 🙋 Having issues or questions? 
@@ -88,10 +88,10 @@ source ~/.zshrc
 - CD into Arch-Hyprland Folder and then ran the below command. 
 - I.e. `./install-scripts/gtk-themes` - For reinstall GTK Themes.
 
-#### 🛣️ Roadmap:
+#### 🛣️ Roadmap
 - [ ] Possibly adding gruvbox themes, cursors, icons
 
-#### ⚠️ some known issues
+#### ⚠️ Some known issues
 - Reports from members of my discord, states that some users of nvidia are getting stuck on sddm login. Credits to @Kenni. Fix stated was:
 ```  
  while in sddm press ctrl+alt+F2 or F3
