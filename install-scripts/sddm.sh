@@ -54,27 +54,27 @@ wayland_sessions_dir=/usr/share/wayland-sessions
 [ ! -d "$wayland_sessions_dir" ] && { printf "$CAT - $wayland_sessions_dir not found, creating...\n"; sudo mkdir "$wayland_sessions_dir" 2>&1 | tee -a "$LOG"; }
 sudo cp assets/hyprland.desktop "$wayland_sessions_dir/" 2>&1 | tee -a "$LOG"
     
-# SDDM-themes
+# SDDM-theme
 valid_input=false
 while [ "$valid_input" != true ]; do
-  read -n 1 -r -p "${CAT} OPTIONAL - Would you like to install SDDM themes? (y/n)" install_sddm_theme
+  read -n 1 -r -p "${CAT} OPTIONAL - Would you like to install SDDM theme? (y/n)" install_sddm_theme
   if [[ $install_sddm_theme =~ ^[Yy]$ ]]; then
-    printf "\n%s - Installing Simple SDDM Theme\n" "${NOTE}"
+    printf "\n%s - Installing SDDM Theme\n" "${NOTE}"
 
-    # Check if /usr/share/sddm/themes/simple-sddm exists and remove if it does
-    if [ -d "/usr/share/sddm/themes/simple-sddm-2" ]; then
-      sudo rm -rf "/usr/share/sddm/themes/simple-sddm-2"
-      echo -e "\e[1A\e[K${OK} - Removed existing 'simple-sddm-2' directory." 2>&1 | tee -a "$LOG"
+    # Check if /usr/share/sddm/themes/SDDM-theme exists and remove if it does
+    if [ -d "/usr/share/sddm/themes/SDDM-theme" ]; then
+      sudo rm -rf "/usr/share/sddm/themes/SDDM-theme"
+      echo -e "\e[1A\e[K${OK} - Removed existing 'SDDM-theme' directory." 2>&1 | tee -a "$LOG"
     fi
 
-    # Check if simple-sddm directory exists in the current directory and remove if it does
-    if [ -d "simple-sddm-2" ]; then
-      rm -rf "simple-sddm-2"
-      echo -e "\e[1A\e[K${OK} - Removed existing 'simple-sddm-2' directory from the current location." 2>&1 | tee -a "$LOG"
+    # Check if SDDM-theme directory exists in the current directory and remove if it does
+    if [ -d "SDDM-theme" ]; then
+      rm -rf "SDDM-theme"
+      echo -e "\e[1A\e[K${OK} - Removed existing 'SDDM-theme' directory from the current location." 2>&1 | tee -a "$LOG"
     fi
 
-    if git clone https://github.com/JaKooLit/simple-sddm-2.git; then
-      while [ ! -d "simple-sddm-2" ]; do
+    if git clone https://github.com/PuppyAnimations/SDDM-theme.git; then
+      while [ ! -d "SDDM-theme" ]; do
       sleep 1
       done
 
@@ -84,7 +84,7 @@ while [ "$valid_input" != true ]; do
       fi
 
       sudo mv simple-sddm-2 /usr/share/sddm/themes/
-      echo -e "[Theme]\nCurrent=simple-sddm-2" | sudo tee "$sddm_conf_dir/10-theme.conf" &>> "$LOG"
+      echo -e "[Theme]\nCurrent=SDDM-theme" | sudo tee "$sddm_conf_dir/10-theme.conf" &>> "$LOG"
     else
       echo -e "\e[1A\e[K${ERROR} - Failed to clone the theme repository. Please check your internet connection" | tee -a "$LOG" >&2
     fi
