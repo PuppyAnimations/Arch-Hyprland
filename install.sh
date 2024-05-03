@@ -10,12 +10,16 @@ fi
 clear
 
 printf "\n%.0s" {1..3}                            
-echo "   |  _.   |/  _   _  |  o _|_ "
-echo " \_| (_| o |\ (_) (_) |_ |  |_ "
+echo "  _____  _    _ _____  _______     __"
+echo " |  __ \| |  | |  __ \|  __ \ \   / /"
+echo " | |__) | |  | | |__) | |__) \ \_/ / "
+echo " |  ___/| |  | |  ___/|  ___/ \   /  "
+echo " | |    | |__| | |    | |      | |   "
+echo " |_|     \____/|_|    |_|      |_|   "
 printf "\n%.0s" {1..2}  
 
 # Welcome message
-echo "$(tput setaf 6)Welcome to JaKooLit's Arch-Hyprland Install Script!$(tput sgr0)"
+echo "$(tput setaf 6)Welcome to Puppy's Arch-Hyprland Install Script!$(tput sgr0)"
 echo
 echo "$(tput setaf 166)ATTENTION: Run a full system update and Reboot first!! (Highly Recommended) $(tput sgr0)"
 echo
@@ -231,7 +235,7 @@ if [ "$dots" == "Y" ]; then
 fi
 
 
-printf "\n${OK} Yey! Installation Completed.\n"
+printf "\n${OK} Yay! Installation Completed.\n"
 printf "\n"
 sleep 2
 printf "\n${NOTE} You can start Hyprland by typing Hyprland (IF SDDM is not installed) (note the capital H!).\n"
