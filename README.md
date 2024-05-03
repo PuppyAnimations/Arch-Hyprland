@@ -108,12 +108,12 @@ log into your account
   - ['SEE HERE`](https://github.com/JaKooLit/Hyprland-Dots/discussions/123#discussion-6035205)
   
 #### 📒 Final Notes
-- Join JaKooLit's discord channel [`Discord`](https://discord.gg/V2SJ92vbEN).
+- Join JaKooLit's [Discord server](https://discord.gg/V2SJ92vbEN).
 - Feel free to copy, re-distribute, and use this script however you want. Would appreciate if you give JaKooLit some love by crediting their work.
 
 ## 💖 Support
 - a Star on my Github repos would be nice.
-- Subscribe to JaKooLit's Youtube Channel [YouTube](https://www.youtube.com/@Ja.KooLit).
+- Subscribe to JaKooLit's [Youtube Channel](https://www.youtube.com/@Ja.KooLit).
 - You can also buy JaKooLit coffee through ko-fi.com or Coffee.com.
 
 <a href='https://ko-fi.com/jakoolit' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy JaKooLit a Coffee at ko-fi.com' />
