@@ -41,7 +41,8 @@ rofi-wayland
 slurp 
 swappy 
 swaync 
-swww 
+swww
+waybar-git
 wget
 wl-clipboard
 wlogout
