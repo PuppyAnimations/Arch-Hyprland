@@ -59,10 +59,10 @@ printf "${NOTE} Installing waybar...\n"
 if git clone https://github.com/Alexays/Waybar; then
   cd Waybar || exit 1
 	meson build
-    if sudo ninja -C build install 2>&1 | tee -a "$MLOG" ; then
-        printf "${OK} waybar-git installed successfully.\n" 2>&1 | tee -a "$MLOG"
+    if sudo ninja -C build install 2>&1 | tee -a "$LOG" ; then
+        printf "${OK} waybar-git installed successfully.\n" 2>&1 | tee -a "$LOG"
     else
-        echo -e "${ERROR} Installation failed for waybar-git." 2>&1 | tee -a "$MLOG"
+        echo -e "${ERROR} Installation failed for waybar-git." 2>&1 | tee -a "$LOG"
     fi
 else
     echo -e "${ERROR} Download failed for waybar-git" 2>&1 | tee -a "$LOG"
