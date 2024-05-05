@@ -32,9 +32,9 @@ for PKG1 in "${engine[@]}"; do
 done
 
 # Check if the directory exists and delete it if present
-if [ -d "GTK-themes-icons" ]; then
+if [ -d "GTK-Theme" ]; then
     echo "$NOTE Tokyo Theme GTK themes and Icons folder exist..deleting..." 2>&1 | tee -a "$LOG"
-    rm -rf "GTK-themes-icons" 2>&1 | tee -a "$LOG"
+    rm -rf "GTK-Theme" 2>&1 | tee -a "$LOG"
 fi
 
 echo "$NOTE Cloning Tokyo Theme GTK themes and Icons repository..." 2>&1 | tee -a "$LOG"
