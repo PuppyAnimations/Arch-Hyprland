@@ -34,7 +34,7 @@ chmod +x install.sh
 <p align="center">
     <img align="center" width="100%" src="https://raw.githubusercontent.com/JaKooLit/Arch-Hyprland/main/Installer.png" />
 
-### 🪧 ANNOUNCEMENT
+#### 🪧 ANNOUNCEMENT
 - This Repo does not contain Hyprland Dots or configs! Dotfiles can be checked here [Hyprland-Dots](https://github.com/PuppyAnimations/Hyprland-Dots). During installation, if you opt to copy installation, it will be downloaded from that centralized repo.
 - Hyprland-Dots use are constantly evolving / improving. you can check CHANGELOGS here [Hyprland-Dots-Changelogs](https://github.com/PuppyAnimations/Hyprland-Dots/wiki/Changelogs).
 - the wallpapers offered to be downloaded towards the end is from this [REPO](https://github.com/PuppyAnimations/Wallpaper-Bank).
@@ -111,7 +111,7 @@ log into your account
 - Join JaKooLit's [Discord server](https://discord.gg/V2SJ92vbEN).
 - Feel free to copy, re-distribute, and use this script however you want. Would appreciate if you give JaKooLit some love by crediting their work.
 
-## 💖 Support
+#### 💖 Support
 - A star on my Github repos would be nice.
 - Subscribe to JaKooLit's [Youtube Channel](https://www.youtube.com/@Ja.KooLit).
 - You can also buy JaKooLit coffee through ko-fi.com or Coffee.com.
