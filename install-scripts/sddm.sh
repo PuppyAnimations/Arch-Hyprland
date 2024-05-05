@@ -83,7 +83,7 @@ while [ "$valid_input" != true ]; do
         echo -e "\e[1A\e[K${OK} - Directory '/usr/share/sddm/themes' created." 2>&1 | tee -a "$LOG"
       fi
 
-      sudo mv simple-sddm-2 /usr/share/sddm/themes/
+      sudo mv SDDM-theme /usr/share/sddm/themes/
       echo -e "[Theme]\nCurrent=SDDM-theme" | sudo tee "$sddm_conf_dir/10-theme.conf" &>> "$LOG"
     else
       echo -e "\e[1A\e[K${ERROR} - Failed to clone the theme repository. Please check your internet connection" | tee -a "$LOG" >&2
