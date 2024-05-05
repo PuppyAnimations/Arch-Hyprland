@@ -112,7 +112,7 @@ log into your account
 - Feel free to copy, re-distribute, and use this script however you want. Would appreciate if you give JaKooLit some love by crediting their work.
 
 ## 💖 Support
-- a Star on my Github repos would be nice.
+- A star on my Github repos would be nice.
 - Subscribe to JaKooLit's [Youtube Channel](https://www.youtube.com/@Ja.KooLit).
 - You can also buy JaKooLit coffee through ko-fi.com or Coffee.com.
 
