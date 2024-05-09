@@ -8,9 +8,9 @@ fi
 sddm=(
   qt6-5compat 
   qt6-declarative 
-  qt6-svg  
+  qt6-svg
   sddm
-) 
+)
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
 
@@ -57,7 +57,9 @@ sudo cp assets/hyprland.desktop "$wayland_sessions_dir/" 2>&1 | tee -a "$LOG"
 # SDDM-theme
 valid_input=false
 while [ "$valid_input" != true ]; do
-  read -n 1 -r -p "${CAT} OPTIONAL - Would you like to install SDDM theme? (y/n)" install_sddm_theme
+    if [[ -z $install_sddm_theme ]]; then
+      read -n 1 -r -p "${CAT} OPTIONAL - Would you like to install SDDM theme? (y/n)" install_sddm_theme
+    fi
   if [[ $install_sddm_theme =~ ^[Yy]$ ]]; then
     printf "\n%s - Installing SDDM Theme\n" "${NOTE}"
 
@@ -76,6 +78,7 @@ while [ "$valid_input" != true ]; do
     if git clone https://github.com/PuppyAnimations/SDDM-theme.git; then
       while [ ! -d "SDDM-theme" ]; do
       sleep 1
+
       done
 
       if [ ! -d "/usr/share/sddm/themes" ]; then

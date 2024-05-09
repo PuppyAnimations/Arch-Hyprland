@@ -104,6 +104,10 @@ log into your account
 - Add "env = WLR_DRM_DEVICES,/dev/dri/cardX" to the ENVvariables config (.config/hypr/UserConfigs/ENVariables.conf); X being where the symlink of the gpu points to
 - More info from the [hyprland wiki](https://wiki.hyprland.org/FAQ/#my-external-monitor-is-blank--doesnt-render--receives-no-signal-laptop).
 
+
+- installing of cava-git on a newly installed Arch makes the install keep hanging. Switched back to cava. After booting and logged in, if cava dont work, replace it cava-git `yay -S cava-git` or `paru -S cava-git` 
+
+
 #### 🫥 Improving performance for Older Nvidia Cards using driver 470
   - ['SEE HERE`](https://github.com/JaKooLit/Hyprland-Dots/discussions/123#discussion-6035205)
   

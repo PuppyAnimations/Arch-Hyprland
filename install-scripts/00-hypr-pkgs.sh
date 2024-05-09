@@ -12,6 +12,7 @@ Extra=(
 )
 
 hypr_package=( 
+aylurs-gtk-shell
 cliphist
 curl 
 grim 
@@ -55,7 +56,7 @@ yad
 hypr_package_2=(
 brightnessctl 
 btop
-cava-git
+cava
 eog
 gnome-system-monitor
 mousepad 
